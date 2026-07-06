@@ -1,0 +1,20 @@
+{
+  "name": "QRM Quality Report Manager",
+  "short_name": "QRM",
+  "description": "Mobilní terminál inspektora — QRM Quality Report Manager",
+  "start_url": "/inspector.html",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#FFC700",
+  "background_color": "#0f1012",
+  "lang": "cs",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
