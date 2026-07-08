@@ -11,7 +11,7 @@ services:
   - type: static
     name: qrm-frontend
     buildCommand: "npm install && npm run build"
-    staticPublishPath: "./dist"
+    publishPath: "./dist"
     routes:
       - type: rewrite
         source: /*
